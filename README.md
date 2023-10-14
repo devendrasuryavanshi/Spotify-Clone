@@ -1,5 +1,5 @@
 # [Spotify Clone](https://devendrasuryavanshi.github.io/Spotify-Clone/)
-[![[🚀 Visit the Site](https://img.shields.io/badge/Visit%20the%20Site-Here-brightgreen)](https://devendrasuryavanshi.github.io/Spotify-Clone/)
+[![Visit the Site](https://img.shields.io/badge/Visit%20the%20Site-Here-brightgreen)](https://devendrasuryavanshi.github.io/Spotify-Clone/)
 
 This project is a simple web-based clone of the Spotify music streaming service. It is designed using HTML and CSS to replicate the user interface and functionality of Spotify.
 
