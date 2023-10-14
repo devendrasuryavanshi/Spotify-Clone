@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Assets/logo.png"> <!-- Favicon for your website -->
+    <title>Spotify Clone: Music for Everyone</title> <!-- Page title -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your custom CSS file -->
+    
+    <!-- Linking Google Fonts for Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Linking custom fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="side-1">
+                <div class="nav" style="opacity: .9;"> <!-- Sidebar navigation item with opacity -->
+                    <span class="material-symbols-rounded" id="icon">home</span> <!-- Home icon -->
+                    <a href="#">Home</a> <!-- Link to Home -->
+                </div>
+                <div class="nav">
+                    <span class="material-symbols-rounded" id="icon">search</span> <!-- Search icon -->
+                    <a href="#">Search</a> <!-- Link to Search -->
+                </div>
+            </div>
+            <div class="side-2">
+                <div class="nav" id="nav2">
+                    <span class="material-symbols-rounded">library_music</span> <!-- Library/music icon -->
+                    <a href="#">Your Library</a> <!-- Link to Your Library -->
+                </div>
+                <div class="div">
+                    <span class="material-symbols-rounded" id="icon-a">add</span> <!-- Add icon -->
+                </div>
+                <div class="div">
+                    <span class="material-symbols-rounded" id="icon-a">arrow_forward</span> <!-- Arrow forward icon -->
+                </div>
+                <div class="box">
+                    <p class="p">Create more playlists</p> <!-- Text for creating playlists -->
+                    <p class="p2">It's easy we'll help you</p> <!-- Additional text -->
+                    <button class="bedge">Create playlist</button> <!-- Button to create a playlist -->
+                </div>
+                <div class="box">
+                    <p class="p">Let's find some more podcasts to follow</p> <!-- Text for finding podcasts -->
+                    <p class="p2">We'll keep you updated on new episodes</p> <!-- Additional text -->
+                    <button class="bedge">Browse podcasts</button> <!-- Button to browse podcasts -->
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="arrow">
+                    <span class="material-symbols-rounded" id="ar">arrow_back_ios</span> <!-- Arrow back icon -->
+                    <span class="material-symbols-rounded" id="ar">arrow_forward_ios</span> <!-- Arrow forward icon -->
+                </div>
+                <div id="btn">
+                    <button class="bedge install-1 int">Explore premium</button> <!-- Button to explore premium -->
+                    <button class="bedge install install-1">
+                        <span class="material-symbols-rounded">download_for_offline</span>&nbsp;install App
+                    </button> <!-- Button to install the app -->
+                    <img id="profile" src="c:\Users\deven\OneDrive\Documents\Profile.png" alt="Profile"> <!-- User profile image -->
+                </div>
+            </div>
+            <div class="cards">
+                <h1>Namaste!</h1> <!-- Greeting or heading -->
+                <br>
+                <div class="sub">
+                    <a class="sub-head" href="#">Recent played</a><a class="show">Show all</a> <!-- Recent played heading and "Show all" link -->
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img class="card-img" src="Assets/like.png" alt="like"> <!-- Card image -->
+                        <p class="card-title">Liked Songs</p> <!-- Title for Liked Songs -->
+                        <p class="card-info">30 Songs</p> <!-- Information about the number of songs -->
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="Assets/8d tunes.png" alt="like"> <!-- Card image -->
+                        <p class="card-title">8D Tunes</p> <!-- Title for 8D Tunes -->
+                        <p class="card-info">Artist</p> <!-- Information about the artist -->
+                    </div>
+                    <div class="card card-00">
+                        <img class="card-img" src="Assets/lofi hits.png" alt="like"> <!-- Card image -->
+                        <p class "card-title">Best Indian Lofi Hits</p> <!-- Title for Indian Lofi Hits -->
+                        <p class="card-info">
+                            Lofi Song (Bollywood) 😌💜, Desi Lofi,...
+                        </p>
+                    </div>
+                    <div class="card card-l">
+                        <img class="card-img" src="c:\Users\deven\Pictures\Screenshots\Screenshot 2023-07-08 171501.png" alt="like"> <!-- Card image -->
+                        <p class="card-title">Liked Songs</p> <!-- Title for Liked Songs -->
+                        <p class="card-info">30 Songs</p> <!-- Information about the number of songs -->
+                    </div>
+                    <div class="card card-2">
+                        <img class="card-img" src="c:\Users\deven\Pictures\Screenshots\Screenshot 2023-07-08 171501.png" alt="like"> <!-- Card image -->
+                        <p class="card-title">Liked Songs</p> <!-- Title for Liked Songs -->
+                        <p class="card-info">30 Songs</p> <!-- Information about the number of songs -->
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <br>
+                <div class="sub">
+                    <a class="sub-head" href="#">Trending now</a><a class="show">Show all</a> <!-- Trending now heading and "Show all" link -->
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img class="card-img" src="Assets/mahiye.png" alt="like"> <!-- Card image -->
+                        <p class="card-title">Mahiye Jinna Sohna</p> <!-- Title for the music -->
+                        <p class="card-info">Darshan Raval</p> <!-- Artist information -->
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="Assets/tum.png" alt="like"> <!-- Card image -->
+                        <p class="card-title">Tum Kya Mile (fro...</p> <!-- Title for the music -->
+                        <p class="card-info">
+                            Pritam, Arijit Singh, Shreya Ghoshal
+                        </p> <!-- Artists involved in the music -->
+                    </div>
+                    <div class="card card-00">
+                        <img class="card-img" src="Assets/trending.png" alt="like"> <!-- Card image -->
+                        <p class="card-title">Trending Now India</p> <!-- Title for trending music -->
+                        <p class="card-info">
+                            Every track You're listening/should be...
+                        </p> <!-- Information about the trending music -->
+                    </div>
+                    <div class="card card-l card-1-1">
+                        <img class="card-img" src="Assets/1 am.png" alt="like"> <!-- Card image -->
+                        <p class="card-title">1AM Feels Hindi</p> <!-- Title for the music -->
+                        <p class="card-info">
+                            Late night cool, & these soothing tunes.
+                        </p> <!-- Information about the music -->
+                    </div>
+                    <div class="card card-2 card-2-2">
+                        <img class="card-img" src="Assets/still.png" alt="like"> <!-- Card image -->
+                        <p class="card-title">Still Rollin</p> <!-- Title for the music -->
+                        <p class="card-info">Shubh</p> <!-- Artist information -->
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <br>
+                <div class="sub">
+                    <a class="sub-head" href="#">Best of artists</a><a class="show">Show all</a> <!-- Best of artists heading and "Show all" link -->
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img class="card-img" src="Assets/arijit.png" alt="like"> <!-- Card image -->
+                        <p class="card-title">This Is Arijit Singh</p> <!-- Title for the artist -->
+                        <p class="card-info">Bollywood crooner's essential songs.</p> <!-- Information about the artist's songs -->
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="Assets/c-bool.png" alt="like"> <!-- Card image -->
+                        <p class="card-title">This Is C-BooL</p> <!-- Title for the artist -->
+                        <p class="card-info">This is C-BooL. The essential tracks, all in...</p> <!-- Information about the artist's songs -->
+                    </div>
+                    <div class="card card-00">
+                        <img class="card-img" src="Assets/sparsh.png" alt="like"> <!-- Card image -->
+                        <p class="card-title">This Is Sparsh Shah</p> <!-- Title for the artist -->
+                        <p class="card-info">This is Sparsh Shah. The essential tracks</p> <!-- Information about the artist's songs -->
+                    </div>
+                    <div class="card card-l card-1-1">
+                        <img class="card-img" src="Assets/dhvani.png" alt="like"> <!-- Card image -->
+                        <p class="card-title">This Is Dhvani Bhanushali</p> <!-- Title for the artist -->
+                        <p class="card-info">This is Dhvani Bhanushali. The...</p> <!-- Information about the artist's songs -->
+                    </div>
+                    <div class="card card-2 card-2-2">
+                        <img class="card-img" src="Assets/rahman.png" alt="like"> <!-- Card image -->
+                        <p class="card-title">This Is A.R. Rahman</p> <!-- Title for the artist -->
+                        <p class="card-info">This is A.R. Rahman. The essential tracks, all in...</p> <!-- Information about the artist's songs -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="music">
+                <img class="music-img" src="Assets/8d tunes.png" alt="music"> <!-- Music player image -->
+                <div class="music-text">
+                    <p class="music-titel">8D Tunes (8D Audio)</p> <!-- Title of the music -->
+                    <p class="music-info">8D Tunes</p> <!-- Information about the music -->
+                </div>
+                <span id="like" class="material-symbols-rounded">favorite</span> <!-- Heart icon for liking the music -->
+            </div>
+            <div class="music-controler">
+                <div class="control">
+                    <!-- Music control buttons/icons -->
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-solid fa-circle-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="play">
+                    <span class="time">00:00</span> <!-- Current time of the song -->
+                    <input type="range" min="0" max="100" class="progress"> <!-- Progress bar for the song -->
+                    <span class="time">03:00</span> <!-- Total duration of the song -->
+                </div>
+            </div>
+            <div class="feature">
+                <span class="material-symbols-rounded" id="featured-icon">slideshow</span> <!-- Slideshow icon -->
+                <span class="material-symbols-rounded" id="featured-icon">lyrics</span> <!-- Lyrics icon -->
+                <span class="material-symbols-rounded" id="featured-icon">queue_music</span> <!-- Queue music icon -->
+                <span style="color: greenyellow;" class="material-symbols-rounded" id="featured-icon">devices</span> <!-- Devices icon -->
+                <span style="font-size: 1.65rem; padding-right: 0;" class="material-symbols-rounded" id="featured-icon">volume_down</span> <!-- Volume down icon -->
+                <input type="range" min="0" max="100" class="volume"> <!-- Volume control slider -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

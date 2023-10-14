@@ -1,0 +1,540 @@
+/* Overall styling for the HTML body */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif; 
+    overflow: hidden;
+    margin: 0;
+}
+
+/* Main container for the page */
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar container */
+.sidebar {
+    width: 280px;
+    background-color: #000;
+    border-radius: 1rem;
+}
+
+/* Styling for the first part of the sidebar */
+.side-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 6.25rem;
+    padding: 0.5rem 0.75rem;
+    background-color: #121212;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+/* Styling for navigation items in the sidebar */
+.nav {
+    opacity: .7;
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 0.75rem;
+    transition: 0.5s;
+}
+
+/* Hover effect for navigation items */
+.nav:hover {
+    opacity: 1;
+}
+
+/* Styling for links in the sidebar */
+a {
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styling for icons in the sidebar */
+#icon {
+    font-size: 1.75rem;
+}
+
+/* Styling for the second part of the sidebar */
+.side-2 {
+    height: 68.5%;
+    background-color: #121212;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    overflow: auto; /* Enable scrolling for overflow content */
+}
+
+/* Styling for a specific navigation item in the sidebar */
+#nav2 {
+    display: inline-flex;
+    margin: 0;
+    width: 60%;
+}
+
+/* Styling for div elements */
+.div {
+    display: inline-block;
+}
+
+/* Styling for icons in the sidebar */
+#icon-a {
+    opacity: .7;
+    font-size: 1.5rem;
+    margin-left: .5rem;
+    transition: 0.5s;
+}
+
+/* Hover effect for icons in the sidebar */
+#icon-a:hover {
+    opacity: 1;
+}
+
+/* Styling for box elements in the sidebar */
+.box {
+    background-color: #232323;
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0.5rem;
+    border-radius: 1rem;
+}
+
+/* Styling for paragraph elements */
+.p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0.25rem 0;
+}
+
+/* Styling for additional paragraph elements */
+.p2 {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+/* Styling for buttons in the sidebar */
+.bedge {
+    position: relative;
+    bottom: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
+
+/* Hover effect for buttons */
+.bedge:hover {
+    transform: scale(1.03);
+}
+
+/* Main content container */
+.main-content {
+    flex: 1;
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 85.9%;
+    margin-top: .5rem;
+    margin-right: .5rem;
+    overflow: auto; /* Enable scrolling for overflow content */
+    padding: 0 .25rem 0 1.5rem;
+}
+
+/* Styling for the sticky navigation bar */
+.sticky-nav {
+    display: flex;
+    background-color: #121212;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    width: 100%;
+    height: 3.5rem;
+    z-index: 2;
+}
+
+/* Styling for arrow icons in the sticky navigation */
+#ar {
+    opacity: .5;
+    background-color: #000;
+    font-size: 1rem;
+    font-weight: 100;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+/* Styling for "install" and "install-1" buttons */
+.install {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.install-1 {
+    margin: auto .25rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the user profile image */
+#profile {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+}
+
+/* Styling for card containers */
+.card-container {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling for subsections with links */
+.sub {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.75rem;
+}
+
+/* Styling for the heading in subsections */
+.sub-head {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 0 0;
+}
+
+/* Styling for the "Show all" link in subsections */
+.show {
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 1.5rem 0 0;
+    transform: translateY(1rem);
+    transform: translateX(1.5rem);
+}
+
+/* Hover effect for the "Show all" link */
+.show:hover {
+    text-decoration: underline;
+}
+
+/* Hover effect for the subsection heading */
+.sub-head:hover {
+    text-decoration: underline;
+}
+
+/* Styling for card elements */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181818;
+    border-radius: 1rem;
+    width: 18%;
+    margin-bottom: 1rem;
+    transition: .5s;
+}
+
+/* Hover effect for card elements */
+.card:hover {
+    background-color: #303030;
+}
+
+/* Styling for card images */
+.card-img {
+    width: 80%;
+    height: auto;
+    border-radius: 1rem;
+    margin-top: 10%;
+}
+
+/* Styling for card titles */
+.card-title {
+    align-self: flex-start;
+    font-size: 80%;
+    font-weight: bold;
+    margin: 8% 0 8% 10%;
+}
+
+/* Styling for card information */
+.card-info {
+    align-self: flex-start;
+    opacity: .7;
+    font-size: 70%;
+    margin: 0 0.75rem 1.5rem 10%;
+}
+
+/* Styling for specific card elements */
+.card-l {
+    opacity: 0;
+}
+
+.card-1-1 {
+    opacity: 1;
+}
+
+.card-2 {
+    opacity: 0;
+}
+
+card-2-2 {
+    opacity: 1;
+}
+
+/* Styling for scrollbars in WebKit-based browsers */
+/* WebKit-based browsers include Chrome and Safari */
+::-webkit-scrollbar {
+    width: 20px; /* Width of the scroll bar */
+    background-color: #121212; /* Background color of the scroll bar */
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #232323; /* Color of the scroll bar thumb */
+    border-radius: 1rem;
+    border: 5px solid #121212;
+}
+
+* {
+    scrollbar-color: #888 #f1f1f1;
+}
+
+/* Styling for the music player at the bottom of the page */
+.music-player {
+    background-color: #000;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+}
+
+/* Styling for the music player section */
+.music {
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the music player image */
+.music-img {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+/* Styling for the text in the music player */
+.music-text {
+    padding: 0 1rem;
+}
+
+/* Styling for the music title */
+.music-titel {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    padding-bottom: .25rem;
+    margin: 0;
+}
+
+/* Hover effect for music title */
+.music-titel:hover {
+    text-decoration: underline;
+}
+
+/* Hover effect for music info */
+.music-info:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Styling for the music information */
+.music-info {
+    font-size: 11px;
+    color: #b3b3b3;
+    margin: 0;
+}
+
+/* Styling for the "like" icon */
+#like {
+    font-size: 1rem;
+}
+
+/* Styling for the music control section */
+.music-controler {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+}
+
+/* Styling for the music control buttons */
+.control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Styling for the shuffle, backward, forward buttons */
+.fa-shuffle, .fa-backward-step, .fa-forward-step {
+    font-size: 1.25rem;
+    color: #b3b3b3;
+    margin: 0 .75rem;
+}
+
+/* Hover effect for shuffle, backward, forward buttons */
+.fa-shuffle:hover {
+    color: #fff;
+}
+
+.fa-backward-step:hover {
+    color: #fff;
+}
+
+.fa-forward-step:hover {
+    color: #fff;
+}
+
+/* Styling for the play button */
+.fa-circle-play {
+    font-size: 2rem;
+    margin: 0 .75rem;
+    border: .001rem solid black;
+}
+
+/* Hover effect for the play button */
+.fa-circle-play:hover {
+    font-size: 2.1rem;
+    border: none;
+}
+
+/* Styling for the repeat button */
+.fa-repeat {
+    color: greenyellow;
+    margin: 0 .75rem;
+}
+
+/* Styling for the time and progress bar */
+.play {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the progress bar */
+.progress {
+    width: 90%;
+    height: .15rem;
+    margin: 0 .5rem 0 .5rem;
+}
+
+/* Styling for the time display */
+.time {
+    font-size: 11px;
+    color: #b3b3b3;
+}
+
+/* Styling for featured icons */
+#featured-icon {
+    font-size: 1.2rem;
+    color: #b3b3b3;
+}
+
+/* Hover effect for featured icons */
+#featured-icon:hover {
+    color: #fff;
+}
+
+/* Styling for the volume control slider */
+.volume {
+    height: .15rem;
+    width: 6rem;
+    margin-right: 1rem;
+}
+
+/* Styling for the feature section */
+.feature {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+/* Styling for individual feature icons */
+.feature span {
+    padding: .4rem;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1020px) {
+    .int {
+        display: none;
+    }
+}
+
+@media (max-width: 1020px) {
+    .card-l {
+        display: none;
+    }
+}
+
+@media (max-width: 1286px) {
+    .card-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 1286px) {
+    .card {
+        width: 22.5%;
+    }
+}
+
+@media (max-width: 1020px) {
+    .card {
+        width: 30%;
+    }
+}
+
+@media (max-width: 837px) {
+    .card-00 {
+        display: none;
+    }
+}
+
+@media (max-width: 837px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 837px) {
+    .music-controler {
+        width: 213px;
+    }
+}
