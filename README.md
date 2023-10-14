@@ -28,7 +28,7 @@ The project is designed to be responsive, adapting to different screen sizes. It
 
 You can view screenshots of the project in action:
 
-- [Screenshot 1](![Alt text](<Screenshot 2023-10-14 111426.png>)): Overview of the Spotify clone.
-- [Screenshot 2](![Alt text](<Screenshot 2023-10-14 111451.png>)): Music player and control buttons.
+- [Screenshot 1]![Alt text](<Screenshot 2023-10-14 111426.png>): Overview of the Spotify clone.
+- [Screenshot 2]![Alt text](<Screenshot 2023-10-14 111451.png>): Music player and control buttons.
 
 Feel free to customize and modify the project as needed to suit your preferences and requirements.
